@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(8, 8, 8);
+    color: white;
+    text-align: right;
+    font-size: 16px;
+    font-family: SemiBold;
+    height: 80px;
+    display: flex;
+    align-items: center;    
+}
+
+#logo{
+    width: 174px;
+    height: 55.16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    image-orientation: flip;
+    margin-left: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#divlogo{
+    text-align: left;
+    
+    
+}
+
+section{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#vagas{
+    color: rgba(34, 188, 21, 1);
+    text-decoration: none;
+    margin-right: 35px;
+    text-align: right;
+    margin-left: 700px;
+}
+
+#empresa{
+    margin-right: 35px;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+
+#entrar{
+    color: white;
+    text-decoration: none;
+    margin-right: 8px;
+    text-align: right;
+}
+
+#divprogramador{
+    margin-right: 0;
+    text-align: right;
+    margin-top: 0px;
+    
+}
+
+#programador{
+    width: 550px;
+    height: 500px;
+    z-index: 1;
+    margin-top: 0;
+    display: block;
+    float: right;
+    background-attachment: fixed;
+    
+}
+
+#butaoentrar{
+    border-radius: 25px;
+    background-color: rgba(34, 188, 21, 1);
+    width: 132px;
+    margin-right: 35px;
+    height: 35px;
+    text-align: center;
+    
+}
+
+#veja{
+    border-radius: 25px;
+    font-size: 20px;
+    width: 336px;
+    height: 52px;
+    color: white;
+    margin-left: 60px;
+    background-color: rgba(34, 188, 21, 1);
+}
+
+#palavrasdobotao{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    color: white;
+    background-color: rgba(21, 21, 21, 1);
+    margin-top: 0;
+    
+}
+.logopage{
+    margin-right: 0;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2{
+    font-size: 24px;
+    margin-left: 60px;
+}
+
+#partebranca{
+    background-color: white;
+    margin-top: 230px;
+    color: black;
+}
+
+#recruitemverde{
+    color: rgba(34, 188, 21, 1);
+}
+
+#contrataram{
+    color: rgba(21, 21, 21, 1);
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+}
+
+.codersrecruit{
+    font-weight: bold;
+}
