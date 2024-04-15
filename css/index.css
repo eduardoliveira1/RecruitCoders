@@ -1,7 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+* a{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -10,8 +18,6 @@ nav{
     background-color: rgb(8, 8, 8);
     color: white;
     text-align: right;
-    font-size: 16px;
-    font-family: SemiBold;
     height: 80px;
     display: flex;
     align-items: center;    
@@ -19,104 +25,97 @@ nav{
 
 
 
+
 #logo{
     width: 174px;
     height: 55.16px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     display: block;
-    margin-left: 60px;
-    margin-right: 650px;
-}
-
-
-
-
-section{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 25px;
+    margin-right: 500px;
 }
 
 
 
 #vervagas{
     color: #0E639C;
-    text-decoration: none;
-    margin-right: 35px;
-    text-align: right;
-    margin-left: 35px;
+
+}
+
+
+
+#sobrenos{
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 
 
 #souempresa{
+    margin-right: 45px;
+}
+
+
+
+nav a{
+    margin-left: 35px;
     margin-right: 35px;
-    color: white;
-    text-decoration: none;
-    text-align: right;
-}
-
-
-#butaoentrar{
-    border-radius: 25px;
-    background-color: #0E639C;
-    width: 132px;
-    margin-right: 35px;
-    height: 35px;
 }
 
 
 
-#entrar{
-    color: white;
-    text-decoration: none;
-    margin-right: 8px;
-    text-align: right;
-}
-
-
-
-#divprogramador{
-    margin-right: 0;
-    text-align: right;
-    margin-top: 0px;
-    
-}
-
-
-
-#programador{
-    width: 550px;
-    height: 500px;
-    margin-top: 0;
-    display: block;
-    float: right;
-}
-
-
-
-
-#veja{
-    border-radius: 25px;
-    font-size: 20px;
-    width: 336px;
-    height: 52px;
-    color: white;
-    margin-left: 60px;
-    background-color: #0E639C;
-}
-
-
-
-#palavrasdobotao{
-    text-decoration: none;
-    color: white;
+nav button{
+    width: 90px;
+    height: 30px;
+    text-align: center;
 }
 
 
 
 button{
+    background-color: #0E639C;
+    border-radius: 25px;
     border-style: none;
 }
+
+
+
+button a{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+main button{
+    margin-left: 60px;
+    width: 332px;
+    height: 52px;
+    margin-top: 320px;
+    margin-bottom: 170px;
+}
+
+
+
+main button a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+main img{
+    display: block;
+    float: right;
+    height: 580px;
+}
+
+
+
+.texto{
+    position: absolute;
+}
+
 
 
 
@@ -127,63 +126,138 @@ body{
 
 
 
+
+
 h1{
     font-size: 40px;
     color: white;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 60px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 
 
-h2{
+
+main h2{
     font-size: 24px;
     margin-left: 60px;
+    position: relative;
+    margin-top: 250px;
 }
 
 
 
-#partebranca{
+
+main b{
+    font-weight: bolder;
+}
+
+
+
+
+#recruitazul{
+    color: #0E639C;
+}
+
+
+
+
+div{
     background-color: white;
-    margin-top: 230px;
-    color: black;
+    height: 647px
 }
 
 
 
-#recruitemazul{
-    color:  #0E639C;
 
-}
-
-
-
-#contrataram{
+div h2{
     color: rgba(21, 21, 21, 1);
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0;
+    margin-left: 350px;
     font-size: 32px;
 }
 
 
 
-.codersrecruit{
-    font-weight: bold;
+
+div b{
+    font-weight: bolder;
 }
 
 
-img{
-    width: 262px;
-    height: 130px;
-    margin-top: 90px;
-    margin-left: 35px;
-    margin-right: 35px;
-   
+
+
+div img{
+    margin-top: 200px;
 }
+
+
+
+
+#microsoft{
+    width: 380px;
+    height: 350px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+
+
+
+#google{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 40px;
+}
+
+
+
+
+#youtube{
+    width: 250px;
+    height: 150px;
+    margin-bottom: 85px;
+    margin-left: 80px;
+}
+
+
+
+
+#amazon{
+    width: 250px;
+    height: 150px;
+    margin-bottom: 75px;
+    margin-left: 80px;
+}
+
 
 
 
 footer{
     background-color: #0E639C;
+    align-items: center;
+    height: 185px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+footer p{
+    margin-top: 50px;
+}
+
+
+
+footer img{
+    width: 224px;
+    height: 70px;
+    display: block;
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+    margin-right: 200px;
 }
