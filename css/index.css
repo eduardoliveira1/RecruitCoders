@@ -108,6 +108,7 @@ main img{
     display: block;
     float: right;
     height: 580px;
+    width: 600px;
 }
 
 
@@ -247,7 +248,7 @@ footer{
 
 
 footer p{
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 
@@ -257,7 +258,7 @@ footer img{
     height: 70px;
     display: block;
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 25px;
     float: left;
     margin-right: 200px;
 }

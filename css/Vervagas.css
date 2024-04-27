@@ -1,51 +1,235 @@
-body{
-    background-color: rgba(21, 21, 21, 1);
+*{
     margin: 0;
-    
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
+/* eu pretendo mexer no tamanho dos botoes do aside, e todos separadamente, criando um id para cada button */
+
+body{
+    background-color: rgba(21, 21, 21, 2);
+    color: white;
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+button{
+    border-radius: 25px;
+    border-style: none;
+}
+
+
 
 
 nav{
     background-color: black;
-    margin-right: 0;
+    display: flex;    
+    align-items: center; 
+    height: 70px;   
 }
 
 
-img{
-    width: 174px;
+
+
+nav img{
+    width: 170px;
     height: 55px;
-    margin-top: 10px;
-    margin-left: 35px;
-    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 870px;
 }
 
 
-#entrar{
+
+
+nav button{
+    background-color: rgba(14, 99, 156, 1);
+    width: 90px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+
+
+
+nav a{
     color: white;
-    float: right;
-    text-decoration: none;
+}
+
+
+
+main h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+
+
+main div{
+    background-color: #0E639C;
+    height: 100px;
+    width: 1270px;
+    justify-content: center;
     text-align: center;
-    margin-right: 32px;
+    margin: auto;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+div p{
+    margin-bottom: 5px;
+}
+
+
+
+div button{
+    height: 34px;
+    width: 170px;
+    margin-top: 5px;
     
 }
 
 
-button{
-    background-color: #0E639C;
-    border-radius: 25px;
-    border-style: none;
-    width: 132px;
-    height: 35px;
-    margin-left: 980px;
-    position: absolute;
-    margin-top: 25px;   
-    cursor: pointer;
+
+div button a{
+    color: black;
+    
 }
 
 
-h3{
+
+section{
+    background-color: rgba(217, 217, 217, 1);
+    height: 140px;
+    width: 1050px;
+    border-radius: 25px;
+    color: black;
+    display: block;
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 25px;
+}
+
+
+
+section p{
+    margin-left: 320px;
+    position: absolute;
+}
+
+
+
+section img{
+    height: 100px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: block;
+}
+
+
+
+aside{
+    width: 193px;
+    height: 635px;
+    margin-left: 40px;
+    background-color: rgba(217, 217, 217, 1);
+    display: block;
+    border-radius: 25px;
+}
+
+
+
+
+input{
+    border-radius: 25px;
+    border-style: none;
+    height: 20px;
+    padding-left: 5px;
+    background-color: rgba(125, 125, 125, 1);
     color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 32px;
-    margin-left: 35px;
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+
+
+
+::placeholder{
+    color: white;
+    margin-right: 0;
+}
+
+
+
+
+aside button{
+    background-color: rgba(125, 125, 125, 1);
+    color: white;
+    width: auto;
+    margin-left: 10px;
+    width: 30px;
+}
+
+
+
+
+aside p{
+    color: black;
+    margin-left: 10px;
+}
+
+
+
+#estagio{
+    width: 65px;
+}
+
+#junior{
+    width: 50px;
+}
+
+#pleno{
+    width: 45px;
+}
+
+#senior{
+    width: 50px;
+}
+
+#startup{
+    width: 55px;
+}
+
+#grande{
+    width: 120px;
+}
+
+#pequena{
+    width: 160px;
+}
+
+#cidade{
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+#remoto{
+    width: 65px;
+}
+
+#presencial{
+    width: 80px;
 }
