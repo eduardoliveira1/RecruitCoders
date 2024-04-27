@@ -78,8 +78,7 @@ main div{
     background-color: #0E639C;
     height: 100px;
     width: 1270px;
-    justify-content: center;
-    text-align: center;
+    
     margin: auto;
     border-radius: 25px;
     margin-bottom: 25px;
@@ -87,8 +86,18 @@ main div{
 
 
 
+main div img{
+    display: block;
+    float: left;
+    margin-left: 50px;
+    margin-right: 300px;
+}
+
+
+
 div p{
     margin-bottom: 5px;
+    
 }
 
 
@@ -96,8 +105,8 @@ div p{
 div button{
     height: 34px;
     width: 170px;
-    margin-top: 5px;
-    
+    margin-top: 10px;
+    margin-left: 200px;
 }
 
 
@@ -127,7 +136,7 @@ section p{
     margin-left: 320px;
     position: absolute;
 }
-
+/* na section, a imagem fica em uma div e o texto com o button ficam em outra*/
 
 
 section img{
@@ -137,6 +146,24 @@ section img{
     margin-left: 30px;
     display: block;
 }
+
+
+
+
+section button{
+    float: right;
+    flex-direction: column;
+}
+
+
+section button img{
+    width: 150px;
+    height: 80px;
+    background-color: #0E639C;
+    margin: 0;
+    
+}
+
 
 
 
@@ -168,7 +195,7 @@ input{
 
 ::placeholder{
     color: white;
-    margin-right: 0;
+    
 }
 
 
@@ -213,7 +240,7 @@ aside p{
 }
 
 #grande{
-    width: 120px;
+    width: 110px;
 }
 
 #pequena{
@@ -232,4 +259,35 @@ aside p{
 
 #presencial{
     width: 80px;
+}
+
+
+
+
+footer{
+    background-color: #0E639C;
+    height: 150px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+footer p{
+    margin-top: 20px;
+    ;
+}
+
+
+
+footer img{
+    width: 220px;
+    height: 100px;
+    margin-top: 27px;
+    margin-left: 90px;
+    margin-right: 220px;
+    float: left;
+    display: block;
 }

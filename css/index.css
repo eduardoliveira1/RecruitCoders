@@ -241,7 +241,7 @@ footer{
     align-items: center;
     height: 185px;
     display: flex;
-    align-items: center;
+    
     
 }
 
@@ -255,7 +255,7 @@ footer p{
 
 footer img{
     width: 224px;
-    height: 70px;
+    height: 90px;
     display: block;
     margin-left: 100px;
     margin-top: 25px;
