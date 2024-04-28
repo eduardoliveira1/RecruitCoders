@@ -41,7 +41,7 @@ nav{
 
 
 nav img{
-    width: 170px;
+    width: 180px;
     height: 55px;
     margin-left: 40px;
     margin-right: 870px;
@@ -54,7 +54,7 @@ nav button{
     background-color: rgba(14, 99, 156, 1);
     width: 90px;
     height: 40px;
-    margin-left: 100px;
+    margin-left: 127px;
 }
 
 
@@ -133,10 +133,28 @@ section{
 
 
 section p{
-    margin-left: 320px;
+    margin-left: 400px;
+    margin-top: 5px;
     position: absolute;
+    display: inline;
+    display: left;
+    display: block;
 }
-/* na section, a imagem fica em uma div e o texto com o button ficam em outra*/
+
+
+
+
+.dinheiro{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    margin-right: 5px;
+    display:inline;
+    float: left;
+    
+}
+
+
 
 
 section img{
@@ -149,17 +167,31 @@ section img{
 
 
 
-
-section button{
-    float: right;
-    flex-direction: column;
+section div{
+    background-color: rgba(217, 217, 217, 1);
+    width: 250px;
+    height: 100px;
+    display: block;
+    float: left;
 }
 
 
-section button img{
-    width: 150px;
-    height: 80px;
+
+section button{
+    float: right;
+    height: 140px;
     background-color: #0E639C;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+}
+
+
+
+
+section button img{
+    width: 70px;
+    height: 50px;
     margin: 0;
     
 }
@@ -207,6 +239,7 @@ aside button{
     width: auto;
     margin-left: 10px;
     width: 30px;
+    cursor: pointer;
 }
 
 
