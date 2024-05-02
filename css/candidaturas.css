@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+body{
+    height: 1150px;
+    background-color: rgba(21, 21, 21, 1);
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+button{
+    border-radius: 25px;
+    background-color: rgba(14, 99, 156, 1);
+    border-style: none;
+}
+
+
+
+nav{
+    height: 80px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+nav img{
+    width: 170px;
+    height: 55px;
+    display: block;
+    float: left;
+    margin-left: 0px;
+    margin-right: 800px;
+}
+
+
+
+nav button{
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+#usuario{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
+
+
+
+.container{
+    margin-left: 70px;
+    color: white;
+}
+
+
+
+
+h1{
+    margin-top: 50px; 
+      
+}
+
+
+
+section{
+    height: 200px;
+    width: 850px;
+    background-color: rgba(217, 217, 217, 1);
+    margin-right: 40px;
+    float: right;
+    border-radius: 25px;
+}
+
+
+
+section img{
+    width: 25px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+
+
+#clt{
+    height: 22px;
+}
+
+
+
+section p{
+    display: inline;
+    margin-top: 0;
+}
+
+
+
+section h2{
+    margin-left: 20px; 
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+
+
+.linha{
+    position: relative;
+    width: 815px;
+    height: 12px;
+    margin-left: 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+.linha .cor1{
+    background-color: rgba(14, 99, 156, 1);
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    border-radius: 25px;
+}
+
+
+
+.linha .cor2{
+    background-color: rgba(158, 186, 205, 1);
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    left: 19%;
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+        
+}
+
+
+
+#progresso{
+    margin-left: 20px;   
+}
+
+
+
+section a{
+    color: red;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+
+
+section button{
+    background-color: rgba(125, 125, 125, 1);
+    width: 130px;
+    height: 30px;
+    margin-left: 400px;
+}
+
+
+
+#andamento{
+    color: white;
+    text-decoration: none;
+    margin-left: 0;
+}
+
+
+
+aside{
+    height: 700px;
+    width: 340px;
+    float: left;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 25px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+
+
+aside button{
+    background-color: rgba(125, 125, 125, 1);
+    color: white;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+aside p{
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+
+input{
+    background-color: rgba(125, 125, 125, 1);
+    border-radius: 25px;
+    border-style: none;
+    height: 25px;
+    width: 280px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+
+::placeholder{
+    color: white;
+    padding: 10px;
+}
+
+
+#todas{
+    margin-left: 20px;
+    width: 130px;
+}
+
+
+#clt{
+    width: 30px;
+    margin-left: 20px;
+}
+
+
+#pj{
+    width: 20px;
+}
+
+
+#estagio{
+    width: 65px;
+}
+
+#junior{
+    width: 50px;
+    margin-left: 20px;
+}
+
+#pleno{
+    width: 45px;
+}
+
+#senior{
+    width: 50px;
+}
+
+#startup{
+    width: 55px;
+}
+
+#grande{
+    width: 110px;
+}
+
+#pequena{
+    width: 160px;
+}
+
+#cidade{
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    width: 310px;
+}
+
+#remoto{
+    width: 65px;
+    margin-left: 20px;
+}
+
+#presencial{
+    width: 80px;
+}
+
+
+footer{
+    height: 150px;
+    background-color: rgba(14, 99, 156, 1);
+    margin-top: 800px;
+    align-items: center;
+    display: flex;
+}
+
+
+
+footer img{
+    width: 250px;
+    height: 100px;
+    margin-left: 70px;
+    display: block;
+    float: left;
+}
+
+
+footer p{
+    color: white;
+    margin-left: 300px;
+}

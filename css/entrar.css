@@ -32,6 +32,7 @@ img{
     margin-bottom: 140px;
     margin-left: 1030px;
     display: block;
+    
 }
 
 
@@ -142,4 +143,11 @@ button a{
 .register-link{
     text-align: center;
     margin-top: 10px;
+    font-weight: bold;
+}
+
+
+#link{
+    font-weight: bold;
+    color: #0E639C;
 }
