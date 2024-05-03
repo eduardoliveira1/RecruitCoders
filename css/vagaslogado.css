@@ -44,7 +44,7 @@ nav img{
     width: 180px;
     height: 55px;
     margin-left: 40px;
-    margin-right: 870px;
+    margin-right: 850px;
 }
 
 
@@ -52,9 +52,10 @@ nav img{
 
 nav button{
     background-color: rgba(14, 99, 156, 1);
-    width: 90px;
+    width: 40px;
     height: 40px;
-    margin-left: 127px;
+    position: relative;
+    margin: 0;
 }
 
 
@@ -65,10 +66,35 @@ nav a{
 }
 
 
+nav p{
+    
+    
+    margin-right: 10px;
+    
+}
+
+
+#sino{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    margin-left: 50px;
+}
+
+
+#usuario{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
 
 main h1{
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-left: 40px;
 }
 
