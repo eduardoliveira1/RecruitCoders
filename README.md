@@ -1,4 +1,4 @@
-![Logo](https://i.imgur.com/EHkK9FC.png)
+# 💻 RecruitCoders
 
 ## Disciplina de Web Design
 Plataforma web desenvolvida para exposição e condidatura de oportunidades de emprego para desenvolvedores.
@@ -13,3 +13,6 @@ Projeto avaliativo proposto na disciplina de **Web Design** do curso de **Análi
 
 ## Stack utilizada
 **Front-end:** HTML5, CSS5, Bootstrap
+
+---
+![Logo](https://i.imgur.com/EHkK9FC.png)
