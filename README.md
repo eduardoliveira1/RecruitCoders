@@ -1,4 +1,4 @@
-![Logo](https://i.imgur.com/119Xqyu.png)
+![Logo](https://i.imgur.com/EHkK9FC.png)
 
 ## Disciplina de Web Design
 Plataforma web desenvolvida para exposição e condidatura de oportunidades de emprego para desenvolvedores.
