@@ -1,7 +1,7 @@
 # 💻 RecruitCoders
 
 ## Disciplina de Web Design
-Plataforma web desenvolvida para exposição e condidatura de oportunidades de emprego para desenvolvedores.
+Plataforma web desenvolvida para exposição de oportunidades de emprego para desenvolvedores.
 
 Projeto avaliativo proposto na disciplina de **Web Design** do curso de **Análise e Desenvolvimento de Sistemas** do **IFRN Campus Pau dos Ferros**
 
@@ -12,7 +12,7 @@ Projeto avaliativo proposto na disciplina de **Web Design** do curso de **Análi
 
 
 ## Stack utilizada
-**Front-end:** HTML5, CSS5, Bootstrap
+**Front-end:** HTML5, CSS3, JavaScript
 
 ---
 ![Logo](https://i.imgur.com/EHkK9FC.png)
