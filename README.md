@@ -1,9 +1,7 @@
 # 💻 RecruitCoders
 
-## Disciplina de Web Design
+## Descrição do Projeto
 Plataforma web desenvolvida para exposição de oportunidades de emprego para desenvolvedores.
-
-Projeto avaliativo proposto na disciplina de **Web Design** do curso de **Análise e Desenvolvimento de Sistemas** do **IFRN Campus Pau dos Ferros**
 
 ## Autores
 
@@ -15,4 +13,12 @@ Projeto avaliativo proposto na disciplina de **Web Design** do curso de **Análi
 **Front-end:** HTML5, CSS3, JavaScript
 
 ---
-![Logo](https://i.imgur.com/EHkK9FC.png)
+
+  ### Projeto Avaliativo - Web Design
+Projeto avaliativo proposto na disciplina de **Web Design** do curso de **Análise e Desenvolvimento de Sistemas** do **IFRN Campus Pau dos Ferros**
+
+
+<p align="left">
+  <img src="https://i.imgur.com/OIW4yxi.png"></img>
+</p>
+
