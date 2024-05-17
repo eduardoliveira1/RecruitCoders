@@ -19,6 +19,6 @@ Projeto avaliativo proposto na disciplina de **Web Design** do curso de **Análi
 
 
 <p align="left">
-  <img src="https://i.imgur.com/OIW4yxi.png"></img>
+  <img width="200px" src="https://i.imgur.com/OIW4yxi.png"></img>
 </p>
 
