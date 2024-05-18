@@ -1,69 +1,104 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <title>CodersRecruit</title>
+    <title>Recruit Coders</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <script src="js/nav.js"></script>
+
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href="index.html"><img id="logo" src="img/logo_cr_1.png" ></a>
-            <section>
-                <a id="vervagas" href="Vervagas.html">Ver vagas</a> 
-                <a id="sobrenos" href="">Sobre nós</a>         
-                <a id="souempresa" href="souempresa.html" >Sou empresa</a>
-                <button>
-                    <a href="Entrar.html">ENTRAR</a>
-                </button>
-            </section>
-        </nav>  
-    </header>  
+    <nav>
+        <a href="index.html">
+            <img src="img/logo1.svg" alt="">
+        </a>
+        <div class="nav-div-button">
+            <a id="vervagas" class="nav-button" href="#">
+                Ver Vagas
+            </a>
+            <a class="nav-button" href="#">
+                Sobre Nós
+            </a>
+            <a class="nav-button" href="">
+                Sou Empresa
+            </a>
+            <a id="entrar" class="nav-button" href="login.html">
+                ENTRAR
+            </a>
+        </div>
 
-    <main>
-        <img src="img/A skilled developer.png" alt="">
-    
-            <h1 class="texto">
-                Explore uma Variedade de <br>
-                Oportunidades para Programadores
-            </h1>
-    
-                <br>
-        
-            <h2 class="texto">
-                Junte-se a nós para explorar uma ampla gama de vagas em <b> Front-End,<br>
-                Back-End, Mobile </b> e <b> Full Stack</b>.
-            </h2>
-    
-            <br>
+        <a id="nav-hamburguer" href="">
+            <i class="bi bi-list"></i>
+        </a>
 
-        <button>
-            <a href="Vervagas.html">VEJA NOSSAS VAGAS</a>
-        </button>
-    </main>
-
-    <div>
-        <h2 class="texto">
-        <br><br>
-        Algumas das empresas que já recrutaram pela<br>
-        <b>Coders</b><b id="recruitazul">Recruit</b>:
-    </h2>
-
-        <section>
-            <img id="microsoft" src="img/microsoft.jfif" alt="">
-            <img id="google" src="img/google_logo.jpg" alt="">
-            <img id="youtube" src="img/new-youtube-logo-840x402.webp" alt="">
-            <img id="amazon" src="img/amazon.webp" alt="">
-        </section>
+    </nav>
+    <div id="hamburguer-menu">
+        <a id="entrar" class="nav-button" href="login.html">
+            ENTRAR
+        </a>
+        <a class="nav-button" href="">
+            Sou Empresa
+        </a>
+        <a class="nav-button" href="#">
+            Sobre Nós
+        </a>
+        <a id="vervagas" class="nav-button" href="#">
+            Ver Vagas
+        </a>
     </div>
-       
+
+    <section class="landing-index">
+
+        <div class="section-content">
+
+            <div id="landing-text">
+                <h1>Explore uma Variedade de <strong>Oportunidades para Desenvolvedores.</strong></h1>
+                <h3>Junte-se a nós para explorar uma ampla gama de vagas em <strong>Front-End</strong>,
+                    <strong>Back-End</strong>, <strong>Full-Stack</strong> e <strong>Mobile</strong>.
+                </h3>
+                <a href="">VEJA NOSSAS VAGAS</a>
+            </div>
+            <img id="landing-img" src="img/landing_img.svg" alt="">
+
+        </div>
+    </section>
+
+    <section class="landing-empresas">
+
+        <div class="section-content">
+
+            <h2>Algumas empresas que já recrutaram pela <br> <span id="landing-empresas-title">Recruit<span
+                        id="landing-empresas-title-2"> Coders</span>:</span></h2>
+            <div id="landing-empresas-imgs">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Banco_Bradesco_logo_%28horizontal%29.png"
+                    alt="Logo do Banco Bradesco">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banco_Ita%C3%BA_logo.svg/1011px-Banco_Ita%C3%BA_logo.svg.png"
+                    alt="Logo da Itaú">
+                <img src="https://cdn.worldvectorlogo.com/logos/picpay-1.svg" alt="Logo da PicPay">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nubank_logo.svg/2560px-Nubank_logo.svg.png"
+                    alt="Logo da NuBank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/IFood_logo.svg/1280px-IFood_logo.svg.png"
+                    alt="Logo do IFood">
+            </div>
+            <div>
+            </div>
+        </div>
+
+    </section>
+
     <footer>
-            <img src="img/logo_cr_w.png" alt="">
-        
-        
-            <p>CodersRecruit © 2024 - Todos os direitos reservados. </p>
-        
+        <img src="img/logo2.svg" alt="">
+        <h3>CodersRecruit © 2024</h3>
+        <div></div>
     </footer>
+
 </body>
+
 </html>

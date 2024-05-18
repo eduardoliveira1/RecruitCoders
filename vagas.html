@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruit Coders</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <script src="js/nav.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">
+            <img src="img/logo1.svg" alt="">
+        </a>
+        <div class="nav-div-button">
+            <a class="nav-button" href="">
+                Sou Empresa
+            </a>
+            <a id="entrar" class="nav-button" href="login.html">
+                ENTRAR
+            </a>
+        </div>
+
+        <a id="nav-hamburguer" href="">
+            <i class="bi bi-list"></i>
+        </a>
+
+    </nav>
+    <div id="hamburguer-menu">
+        <a id="entrar" class="nav-button" href="login.html">
+            ENTRAR
+        </a>
+        <a class="nav-button" href="">
+            Sou Empresa
+        </a>
+    </div>
+
+    <section class="section-vagas">
+        <h1>Confira as atuais vagas para Desenvolvedores</h1>
+        <div id="vagas-notification">
+            <i class="bi bi-bell-fill"></i>
+            <div id="vagas-notification-message">
+                <h2>Faça Login para receber notificações de vagas perfeitas para o seu perfil!</h2>
+                <a href=""><strong>Entre</strong> ou <strong>Cadastre-se</strong></a>
+            </div>
+        </div>
+
+        <section class="section-show-vagas">
+            <form class="vagas-filtros">
+                <div class="search-bar">
+                    <i class="bi bi-search"></i>
+                    <input placeholder="Pesquisar..." type="text">
+                </div>
+                <div>
+                    <h3>Tipo de Contrato</h3>
+                    <div class="filter-select">
+                        <a href="">CLT</a>
+                        <a href="">PJ</a>
+                        <a href="">Estágio</a>
+                    </div>
+                </div>
+                <div>
+                    <h3>Nível de Experiência</h3>
+                    <div class="filter-select">
+                        <a href="">Junior</a>
+                        <a href="">Pleno</a>
+                        <a href="">Sênior</a>
+                    </div>
+                </div>
+                <div>
+                    <h3>Tipo de Empresa</h3>
+                    <div class="filter-select">
+                        <a href="">Start-Up</a>
+                        <a href="">Pequena/Média Empresa</a>
+                        <a href="">Grande Empresa</a>
+                    </div>
+                </div>
+                <div>
+                    <h3>Local da Vaga</h3>
+                    <div class="search-bar">
+                        <select name="" id="">
+                            <option value="">Remoto/Home Office</option>
+                            <option value="">Encanto - RN</option>
+                            <option value="">Pau dos Ferros - RN</option>
+                            <option value="">Rafael Fernandes - RN</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <div class="area-vagas">
+
+                <a href="" class="vaga">
+                    <img src="img/img1.png" alt="">
+                    <div class="vaga-info">
+                        <h3>Programador PHP Junior</h3>
+                        <p><i class="bi bi-cash-stack"></i> Até R$2.000,00</p>
+                        <p><i class="bi bi-briefcase"></i> CLT</p>
+                        <p><i class="bi bi-geo-alt"></i> Pau dos Ferros - RN</p>
+                        <div class="vaga-tags">
+                            <p>Junior</p>
+                            <p>CLT</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="vaga">
+                    <img src="img/img1.png" alt="">
+                    <div class="vaga-info">
+                        <h3>Programador PHP Junior</h3>
+                        <p><i class="bi bi-cash-stack"></i> Até R$2.000,00</p>
+                        <p><i class="bi bi-briefcase"></i> CLT</p>
+                        <p><i class="bi bi-geo-alt"></i> Pau dos Ferros - RN</p>
+                        <div class="vaga-tags">
+                            <p>Junior</p>
+                            <p>CLT</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+    </section>
+
+    <footer>
+        <img src="img/logo2.svg" alt="">
+        <h3>CodersRecruit © 2024</h3>
+        <div></div>
+    </footer>
+
+</body>
+
+</html>
