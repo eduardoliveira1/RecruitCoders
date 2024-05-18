@@ -6,7 +6,6 @@ Plataforma web desenvolvida para exposição de oportunidades de emprego para de
 - [Murilo Fontes](https://github.com/murlokfs)
 ## Stack utilizada
 **Front-end:** HTML5, CSS3, JavaScript
-
 ---
   ### Projeto Avaliativo - Web Design
 Projeto avaliativo proposto na disciplina de **Web Design** do curso de **Análise e Desenvolvimento de Sistemas** do **IFRN Campus Pau dos Ferros**
