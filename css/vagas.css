@@ -32,6 +32,10 @@ nav img {
     height: 52px;
 }
 
+#img_resp{
+    display: none;
+}
+
 .nav-div-button {
     display: flex;
     justify-content: space-evenly;
@@ -73,6 +77,38 @@ nav img {
 #entrar:hover{
     background-color: white;
     color: #0E639C;
+}
+
+#logged-nav{
+    justify-content: right;
+    gap: 20px;
+    width: 300px;
+}
+
+#notification-button{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#user-button{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    gap: 10px;
+}
+
+#user-button:hover{
+    color: white;
+}
+
+#user-button i{
+    font-size: 25px;
+}
+
+#user-button p{
+    font-size: 15px;
+    width: 200px;
 }
 
 #nav-hamburguer {
@@ -208,6 +244,33 @@ section {
 
 .hidden {
     display: none;
+}
+
+#user-menu-container {
+    position: relative;
+}
+
+.dropdown {
+    background-color: white;
+    color: #161616;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    text-align: left;
+    z-index: 1000;
+    padding: 10px;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #161616;
+}
+
+.dropdown a:hover {
+    background-color: #0E639C;
+    color: white;
 }
 
 #botao-resp-filtros i{
@@ -416,6 +479,18 @@ footer div{
         flex-direction: column;
     }
 
+    nav > a > img{
+        display: none;
+    }
+
+    #img_resp{
+        display: block;
+    }
+
+    .nav-button {
+        margin-right: 0;
+    }
+
 }
 
 @media screen and (max-width: 728px) {
@@ -472,7 +547,15 @@ footer div{
         display: block;
     }
 
-    nav .nav-button {
+    .nav-button{
+        width: max-content;
+    }
+
+    #user-button{
+        gap: 5px;
+    }
+
+    #user-button p{
         display: none;
     }
 }
