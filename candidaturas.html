@@ -37,7 +37,8 @@
     </nav>
 
     <section class="section-vagas">
-        <h1>Confira as atuais vagas para Desenvolvedores</h1>
+        <h1>Suas candidaturas</h1>
+        <h3 id="title-desc">Acompanhe o andamento de suas candidaturas.</h3>
 
         <section class="section-show-vagas">
             <form class="vagas-filtros">
@@ -90,51 +91,32 @@
             </form>
 
             <div class="area-vagas">
-
-                <a href="#" class="vaga">
-                    <img src="img/img1.png" alt="">
-                    <div class="vaga-info">
+                <div class="vaga">
+                    <div id="candidatura-info" class="vaga-info">
                         <h3>Programador PHP Junior</h3>
-                        <p><i class="bi bi-cash-stack"></i> Até R$2.000,00</p>
-                        <p><i class="bi bi-briefcase"></i> Recruit Coders</p>
-                        <p><i class="bi bi-geo-alt"></i> Pau dos Ferros - RN</p>
-                        <div class="vaga-tags">
-                            <p>Junior</p>
-                            <p>CLT</p>
+                        <div class="candidatura-icons">
+                            <p><i class="bi bi-briefcase"></i> Recruit Coders</p>
+                            <p><i class="bi bi-geo-alt"></i> Pau dos Ferros - RN</p>
                         </div>
-                    </div>
-                </a>
-
-                <a href="#" class="vaga">
-                    <img src="img/img2.png" alt="">
-                    <div class="vaga-info">
-                        <h3>Programador PHP Junior</h3>
-                        <p><i class="bi bi-cash-stack"></i> Até R$2.000,00</p>
-                        <p><i class="bi bi-briefcase"></i> Recruit Coders</p>
-                        <p><i class="bi bi-geo-alt"></i> Pau dos Ferros - RN</p>
-                        <div class="vaga-tags">
-                            <p>Junior</p>
-                            <p>CLT</p>
+                        <div class="candidatura-progress-area">
+                            <div class="progress-desc">
+                                <p>Progresso</p>
+                                <p>2/10</p>
+                            </div>
+                            <div class="progress-out">
+                                <div class="progress-in">
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </a>
-                <a href="#" class="vaga">
-                    <img src="img/img1.png" alt="">
-                    <div class="vaga-info">
-                        <h3>Programador PHP Junior</h3>
-                        <p><i class="bi bi-cash-stack"></i> Até R$2.000,00</p>
-                        <p><i class="bi bi-briefcase"></i> Recruit Coders</p>
-                        <p><i class="bi bi-geo-alt"></i> Pau dos Ferros - RN</p>
-                        <div class="vaga-tags">
-                            <p>Junior</p>
-                            <p>CLT</p>
+                        <div class="candidatura-actions">
+                            <a href="">Desistir da Vaga</a>
+                            <a id="candidatura-details" href="">Ver Andamento</a>
                         </div>
                     </div>
                 </a>
 
             </div>
         </section>
-
     </section>
 
     <footer>
@@ -147,7 +129,7 @@
         function handleResize() {
             const filterSections = document.querySelectorAll('.filter-section');
             const filterButton = document.getElementById('botao-resp-filtros');
-            
+
             if (window.innerWidth > 728) {
                 filterSections.forEach(section => {
                     section.classList.remove('hidden');
@@ -161,7 +143,7 @@
             }
         }
 
-        document.getElementById('botao-resp-filtros').addEventListener('click', function() {
+        document.getElementById('botao-resp-filtros').addEventListener('click', function () {
             const filterSections = document.querySelectorAll('.filter-section');
             filterSections.forEach(section => {
                 section.classList.toggle('hidden');
@@ -172,7 +154,7 @@
         document.addEventListener('DOMContentLoaded', handleResize);
 
         // User menu dropdown functionality with Popper.js
-        document.getElementById('user-button').addEventListener('click', function() {
+        document.getElementById('user-button').addEventListener('click', function () {
             const userDropdown = document.getElementById('user-dropdown');
             userDropdown.classList.toggle('hidden');
             Popper.createPopper(document.getElementById('user-button'), userDropdown, {
@@ -180,7 +162,6 @@
             });
         });
     </script>
-    
 </body>
 
 </html>
