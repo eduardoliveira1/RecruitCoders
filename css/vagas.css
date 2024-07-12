@@ -495,6 +495,81 @@ input:focus, select:focus{
     background-color: #7D7D7D;
 }
 
+.section-vagas-info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: space-between;
+    align-items: start;
+    align-content: start;
+    height: max-content;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+#area-info{
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 25px;
+    width: 100%;
+}
+
+#vaga-header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    margin: 30px;
+    gap: 20px;
+}
+
+#vaga-header img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+#vaga-header h1{
+    color: black;
+    font-size: 22px;
+}
+
+#vaga-header p, #vaga-header i{
+    color: black;
+    font-size: 18px;
+}
+
+#vaga-header div{
+    margin-top: -20px;
+}
+
+#vaga-desc{
+    margin-top: -90px;
+    margin: 30px;
+}
+
+#vaga-candidatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    margin: 30px;
+}
+
+#vaga-candidatar a{
+    background-color: #0E639C;
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+}
+
 footer{
     background-color: #0E639C;
     color: white;
