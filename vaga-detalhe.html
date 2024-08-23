@@ -4,140 +4,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recruit Coders</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Programador Python Junior - Recruit Coders</title>
+    <link rel="shortcut icon" href="static 'favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="css/vagas.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://unpkg.com/@popperjs/core@2"></script>
-</head>
 
-<body>
-    <nav>
-        <a href="index.html">
-            <img src="img/logo1.svg" alt="">
-            <img id="img_resp" src="img/logo_resp.svg" alt="">
+    <script src="static 'js/nav.js'"></script>
+</head>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const userButton = document.querySelector("#user-button");
+        const userDropdown = document.querySelector("#user-dropdown");
+
+        // Initialize Popper.js
+        const popperInstance = Popper.createPopper(userButton, userDropdown, {
+            placement: 'bottom-end',
+            modifiers: [
+                {
+                    name: 'offset',
+                    options: {
+                        offset: [0, 0],
+                    },
+                },
+            ],
+        });
+
+        // Toggle dropdown visibility
+        userButton.addEventListener("click", function () {
+            userDropdown.classList.toggle("hidden");
+            if (!userDropdown.classList.contains("hidden")) {
+                popperInstance.update();
+            }
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener("click", function (event) {
+            if (!userButton.contains(event.target) && !userDropdown.contains(event.target)) {
+                userDropdown.classList.add("hidden");
+            }
+        });
+    });
+</script>
+<nav>
+    <a href="vagas.html">
+        <img src="img/logo1.svg" alt="">
+        <img id="img_resp" src="img/logo_resp.svg" alt="">
+    </a>
+    <div id="logged-nav" class="nav-div-button">
+        <a id="notification-button">
+            <i class="bi bi-bell"></i>
         </a>
-        <div id="logged-nav" class="nav-div-button">
-            <a id="notification-button">
-                <i class="bi bi-bell"></i>
+        <div id="user-menu-container" class="nav-button">
+            <a id="user-button" class="nav-button">
+                <i class="bi bi-person-circle"></i>
+                <p>Usuário</p>
             </a>
-            <div id="user-menu-container" class="nav-button">
-                <a id="user-button" class="nav-button">
-                    <i class="bi bi-person-circle"></i>
-                    <p>Usuário</p>
-                </a>
-                <div id="user-dropdown" class="dropdown hidden">
-                    <a href="#">Perfil</a>
-                    <a href="candidaturas.html">Candidaturas</a>
-                    <a href="#">Sair</a>
-                </div>
+            <div id="user-dropdown" class="dropdown hidden" role="menu">
+                <a href="">Curriculo</a>
+                <a href="">Candidaturas</a>
+                <a href="">Sair</a>
             </div>
         </div>
-    </nav>
-
-    <section class="section-vagas">
-
-        <section class="section-vagas-info">
-            <div id="area-info">
-                <div id="vaga-header">
+    </div>
+</nav>
+<div id="hamburguer-menu">
+    <a id="entrar" class="nav-button" href="login.html">
+        ENTRAR
+    </a>
+    <a class="nav-button" href="">
+        Sou Empresa
+    </a>
+</div>
+<section class="section-vagas">
+    <section class="section-vagas-info">
+        <div id="area-info">
+            <div id="vaga-header">
+                <div id="header-back"></div>
+                <div id="header-front">
                     <img src="img/img1.png" alt="">
-                    <div>
-                        <h1>Programador(a) Python Júnior</h1>
-                        <p><i class="bi bi-cash-stack"></i> Até R$2.000,00</p>
-                        <p><i class="bi bi-briefcase"></i> Recruit Coders</p>
-                        <p><i class="bi bi-geo-alt"></i> Pau dos Ferros - RN</p>
-                    </div>
-                </div>
-                <div id="vaga-desc">
-                    <h2>Informações da Vaga:</h2>
-
-                    <h3>Sobre a Empresa:</h3>
-                    <p>Somos uma empresa inovadora no setor de tecnologia, dedicada a oferecer soluções digitais de alta qualidade para nossos clientes. Valorizamos o desenvolvimento profissional contínuo e oferecemos um ambiente de trabalho colaborativo e dinâmico.</p>
-                
-                    <h3>Responsabilidades:</h3>
-                    <ul>
-                        <li>Desenvolver, testar e manter aplicações e scripts em Python.</li>
-                        <li>Colaborar com a equipe de desenvolvimento para criar soluções eficientes e escaláveis.</li>
-                        <li>Participar na análise de requisitos e na definição de arquiteturas de software.</li>
-                        <li>Auxiliar na resolução de problemas técnicos e na correção de bugs.</li>
-                        <li>Contribuir para a documentação técnica dos projetos.</li>
-                    </ul>
-                
-                    <h3>Requisitos:</h3>
-                    <ul>
-                        <li>Conhecimento básico de Python e suas principais bibliotecas (ex.: pandas, numpy, requests).</li>
-                        <li>Experiência em desenvolvimento web com frameworks como Django ou Flask.</li>
-                        <li>Capacidade de trabalhar em equipe e boa comunicação.</li>
-                    </ul>
-                
-                    <h3>Diferenciais:</h3>
-                    <ul>
-                        <li>Conhecimento em versionamento de código com Git.</li>
-                        <li>Familiaridade com APIs RESTful.</li>
-                    </ul>
-                
-                    <h3>Benefícios:</h3>
-                    <ul>
-                        <li>Salário competitivo.</li>
-                        <li>Plano de saúde e odontológico.</li>
-                        <li>Vale refeição ou alimentação.</li>
-                        <li>Ambiente de trabalho flexível e remoto.</li>
-                        <li>Oportunidades de crescimento e desenvolvimento profissional.</li>
-                    </ul>
-                </div>
-                <div id="vaga-candidatar">
-                    <a href="">CANDIDATAR-SE</a>
+                    <h1>RecruitCoders</h1>
                 </div>
             </div>
-        </section>
+            <div id="vaga-desc">
+                <h2>Programador Python Junior</h2>
+                <p>Publicado em 23 de Agosto de 2024, às 13:20</p>
+                <p>Inscrições abertas até 5 de Setembro de 2024</p>
+                <hr>
+                <p><i class="bi bi-cash-stack"></i> Até R$1.500,00</p>
+                <p><i class="bi bi-geo-alt"></i>Pau dos Ferros - RN</p>
+                <hr>
+                <h3>Sobre a Vaga:</h3>
+                <p>
+                    Estamos procurando um Desenvolvedor Backend Python Júnior para se juntar à nossa equipe de
+                    desenvolvimento. O candidato ideal deve ter uma base sólida em Python e estar ansioso para aprender
+                    e crescer em um ambiente de desenvolvimento ágil e colaborativo.
+                </p>
 
+                <h3>Sobre a Empresa:</h3>
+                <p>Somos uma empresa inovadora no setor de tecnologia, dedicada a oferecer soluções digitais de alta
+                    qualidade para nossos clientes. Valorizamos o desenvolvimento profissional contínuo e oferecemos um
+                    ambiente de trabalho colaborativo e dinâmico.</p>
+
+                <h3>Responsabilidades:</h3>
+                <ul>
+                    <li>Desenvolver, testar e manter aplicações e scripts em Python.</li>
+                    <li>Colaborar com a equipe de desenvolvimento para criar soluções eficientes e escaláveis.</li>
+                    <li>Participar na análise de requisitos e na definição de arquiteturas de software.</li>
+                    <li>Auxiliar na resolução de problemas técnicos e na correção de bugs.</li>
+                    <li>Contribuir para a documentação técnica dos projetos.</li>
+                </ul>
+
+                <h3>Requisitos:</h3>
+                <ul>
+                    <li>Conhecimento básico de Python e suas principais bibliotecas (ex.: pandas, numpy, requests).</li>
+                    <li>Experiência em desenvolvimento web com frameworks como Django ou Flask.</li>
+                    <li>Capacidade de trabalhar em equipe e boa comunicação.</li>
+                </ul>
+
+                <h3>Diferenciais:</h3>
+                <ul>
+                    <li>Conhecimento em versionamento de código com Git.</li>
+                    <li>Familiaridade com APIs RESTful.</li>
+                </ul>
+
+                <h3>Benefícios:</h3>
+                <ul>
+                    <li>Salário competitivo.</li>
+                    <li>Plano de saúde e odontológico.</li>
+                    <li>Vale refeição ou alimentação.</li>
+                    <li>Ambiente de trabalho flexível e remoto.</li>
+                    <li>Oportunidades de crescimento e desenvolvimento profissional.</li>
+                </ul>
+            </div>
+
+            <div id="vaga-candidatar">
+                <a href="candidaturas.html">CANDIDATAR-SE</a>
+            </div>
+
+        </div>
     </section>
 
-    <footer>
-        <img src="img/logo2.svg" alt="">
-        <h3>CodersRecruit © 2024</h3>
-        <div></div>
-    </footer>
+</section>
 
-    <script>
-        function handleResize() {
-            const filterSections = document.querySelectorAll('.filter-section');
-            const filterButton = document.getElementById('botao-resp-filtros');
+<footer>
+    <img src="img/logo2.svg" alt="">
+    <h3>CodersRecruit © 2024</h3>
+    <div></div>
+</footer>
 
-            if (window.innerWidth > 728) {
-                filterSections.forEach(section => {
-                    section.classList.remove('hidden');
-                });
-                filterButton.classList.add('hidden');
-            } else {
-                filterSections.forEach(section => {
-                    section.classList.add('hidden');
-                });
-                filterButton.classList.remove('hidden');
-            }
-        }
 
-        document.getElementById('botao-resp-filtros').addEventListener('click', function () {
-            const filterSections = document.querySelectorAll('.filter-section');
+<script>
+    function handleResize() {
+        const filterSections = document.querySelectorAll('.filter-section');
+        const filterButton = document.getElementById('botao-resp-filtros');
+
+        if (window.innerWidth > 728) {
             filterSections.forEach(section => {
-                section.classList.toggle('hidden');
+                section.classList.remove('hidden');
             });
-        });
-
-        window.addEventListener('resize', handleResize);
-        document.addEventListener('DOMContentLoaded', handleResize);
-
-        // User menu dropdown functionality with Popper.js
-        document.getElementById('user-button').addEventListener('click', function () {
-            const userDropdown = document.getElementById('user-dropdown');
-            userDropdown.classList.toggle('hidden');
-            Popper.createPopper(document.getElementById('user-button'), userDropdown, {
-                placement: 'bottom-end',
+            filterButton.classList.add('hidden');
+        } else {
+            filterSections.forEach(section => {
+                section.classList.add('hidden');
             });
+            filterButton.classList.remove('hidden');
+        }
+    }
+
+    document.getElementById('botao-resp-filtros').addEventListener('click', function () {
+        const filterSections = document.querySelectorAll('.filter-section');
+        filterSections.forEach(section => {
+            section.classList.toggle('hidden');
         });
-    </script>
+    });
 
-</body>
+    window.addEventListener('resize', handleResize);
+    document.addEventListener('DOMContentLoaded', handleResize);
 
-</html>
+    // User menu dropdown functionality with Popper.js
+    document.getElementById('user-button').addEventListener('click', function () {
+        const userDropdown = document.getElementById('user-dropdown');
+        userDropdown.classList.toggle('hidden');
+        Popper.createPopper(document.getElementById('user-button'), userDropdown, {
+            placement: 'bottom-end',
+        });
+    });
+</script>
