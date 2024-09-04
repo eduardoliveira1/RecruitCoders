@@ -200,10 +200,68 @@ section {
     margin: 20px;
 }
 
+.landing-recomendacoes{
+    color: white;
+    background-color: #0E639C;
+}
+
+.landing-recomendacoes .section-content {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.landing-recomendacoes h2{
+    font-weight: 500;
+}
+
+.depoimentos{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.depoimentos div{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 10px;
+
+    height: 300px;
+
+    width: 300px;
+    text-align: center;
+}
+
+.depoimentos div > p {
+    font-size: 15px;
+}
+
+#assinatura{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#assinatura > img{
+    width: 100px;
+}
+
+#assinatura-cargo{
+    margin-top: -10px;
+}
 
 footer{
-    background-color: #0E639C;
-    color: white;
+    background-color: black;
+    color: #0E639C;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -215,7 +273,7 @@ footer{
 }
 
 footer h3{
-    font-weight: 300;
+    font-weight: 700;
     font-size: 16px;
 }
 
@@ -258,6 +316,18 @@ footer div{
 
     .section-content #landing-text{
         text-align: center;
+    }
+
+    .section-content .depoimentos #resp{
+        display: none;
+    }
+
+    .landing-recomendacoes{
+        height: fit-content;
+    }
+
+    #assinatura img{
+        width: 50px;
     }
 
 }
@@ -304,5 +374,11 @@ footer div{
     }
     #landing-img {
         height: 300px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .landing-recomendacoes{
+        height: fit-content;
     }
 }

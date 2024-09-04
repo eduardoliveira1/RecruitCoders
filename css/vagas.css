@@ -466,7 +466,6 @@ input:focus, select:focus{
     background-color: #0E639C;
     border-radius: 25px;
     height: 100%;
-    width: 20%;
 }
 
 .candidatura-actions{
