@@ -165,51 +165,6 @@ section {
     color: white;
 }
 
-#vagas-notification{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: space-evenly;
-    background-color: #0E639C;
-    color: white;
-    padding: 20px;
-    border-radius: 25px;
-    margin-bottom: 20px;
-}
-
-#vagas-notification i{
-    text-align: center;
-    font-size: 90px;
-    width: 10%;
-}
-
-#vagas-notification-message {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
-    text-align: center;
-    font-size: 12px;
-    width: 80%;
-    height: 100%;
-}
-
-#vagas-notification-message h2{
-    font-weight: 400;
-}
-
-#vagas-notification-message a{
-    background-color: white;
-    padding: 10px;
-    border-radius: 25px;
-    font-size: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-decoration: none;
-    color: #000000;
-}
-
 .section-show-vagas{
     display: flex;
     flex-direction: row;
@@ -221,25 +176,6 @@ section {
     height: fit-content;
     margin-bottom: 30px;
     gap: 20px;
-}
-
-.vagas-filtros {
-    padding: 20px;
-    background-color: white;
-    border-radius: 25px;
-    width: 30%;
-}
-
-#botao-resp-filtros{
-    display: none;
-    justify-content: center;
-    margin-top: 10px;
-    align-content: center;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    gap: 5px;
-    cursor: pointer;
 }
 
 .hidden {
@@ -255,112 +191,37 @@ section {
     position: relative;
 }
 
-.dropdown {
-    background-color: white;
-    color: #161616;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 150px;
-    text-align: left;
-    z-index: 1000;
-    padding: 10px;
-}
-
-.dropdown a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #161616;
-}
-
-.dropdown a:hover {
-    background-color: #0E639C;
-    color: white;
-}
-
-#botao-resp-filtros i{
-    margin: 0;
-    color: #161616;
-    font-size: 20px;
-}
-
-#botao-resp-filtros p{
-    margin: 0;
-    color: #161616;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.search-bar{
-    display: flex;
-    background-color: #7D7D7D;
-    padding: 10px;
-    border-radius: 25px;
-    color:white;
-}
-
-input:focus, select:focus{
+input:focus, select:focus, textarea:focus{
     outline: none;
 }
 
-::placeholder {
-    color:#c0c0c0;
-}
-
-.search-bar i{
-    font-size: 20px;
-    margin-left: 5px;
-    margin-right: 10px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.search-bar input{
-    width: 100%;
-    color: white;
-    font-size: 15px;
+input, textarea, select{
+    margin-top: -10px;
+    margin-bottom: 20px;
+    background-color: #c7c7c7;
     border: none;
-    background-color: #7D7D7D;
-}
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 500px;
+    min-height: 30px;
 
-.search-bar select{
-    width: 100%;
-    color: white;
+    color: #0E639C;
     font-size: 15px;
-    border: none;
-    background-color: #7D7D7D;
+    font-weight: 700;
 }
 
-.vagas-filtros h3{
-    color: #161616;
-    margin-bottom: 10px;
+select{
+    height: 40px;
+    width: 520px;
 }
 
-.filter-select {
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-    gap: 5px;
-    margin-bottom: 30px;
-}
-
-.filter-select a{
-    background-color:white;
-    border-style: solid;
-    border-color: #7D7D7D;
-    border-width: 1.5px;
-    padding: 5px;
-    font-weight: 500;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 25px;
-    color:#7D7D7D;
-    text-decoration: none;
-}
-
-.filter-select a:hover{
-    background-color: #7D7D7D;
-    color: white;
+#textarea{
+    text-align: start;
+    max-width: 500px;
+    height: 200px;
+    resize: none;
 }
 
 .area-vagas{
@@ -402,13 +263,6 @@ input:focus, select:focus{
     color:#161616 ;
 }
 
-.vaga-tags{
-    gap: 5px;
-    display: flex;
-    align-items: center;
-    align-content: center;
-}
-
 .vaga-info h3, .vaga-info p{
     margin: 0;
     margin-bottom: 10px;
@@ -444,115 +298,34 @@ input:focus, select:focus{
     height: 200px;
 }
 
-
-.progress-desc{
-    display: flex;
-    justify-content: space-between;
-    font-weight: 700;
-}
-
-.progress-desc p{
-    font-size: 14px;
-}
-
-.progress-out{
-    background-color: #9EBACD;
-    width: 100%;
-    height: 12px;
-    border-radius: 25px;
-}
-
-.progress-in {
-    background-color: #0E639C;
-    border-radius: 25px;
-    height: 100%;
-}
-
-.candidatura-actions{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.candidatura-actions > a{
-    display: block;
-    color: red;
-    font-size: 15px;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    text-decoration: underline;
-}
-
-#candidatura-details{
-    padding: 10px;
-    text-decoration: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 25px;
-    color: white;
-    background-color: #7D7D7D;
-}
-
 .section-vagas-info{
     display: flex;
     flex-direction: column;
     padding-left: 0;
     padding-right: 0;
     justify-content: space-between;
-    align-items: start;
-    align-content: start;
+    align-items: center;
+    align-content: center;
     height: max-content;
     margin-bottom: 30px;
     gap: 20px;
 }
 
 #area-info{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     margin-top: 30px;
     background-color: white;
     border-radius: 25px;
-    width: 100%;
+    width: fit-content;
 }
 
-#header-back{
-    background-color: rgb(126, 156, 244);
-    height: 300px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    width: 100%;
-}
-
-#vaga-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 30px;
-    gap: 20px;
-}
-
-#vaga-header img{
-    width: 200px;
-    border-radius: 20px;
-}
-
-#vaga-header h1{
-    color: black;
-    font-size: 22px;
-}
-
-#vaga-header p, #vaga-header i{
-    color: black;
-    font-size: 18px;
-}
-
-#header-front{
-    margin-top: -100px;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
+#botao-voltar{
+    text-decoration: none;
+    color: #7D7D7D;
+    font-weight: 700;
 }
 
 hr{
@@ -561,14 +334,10 @@ hr{
     border-style: solid;
 }
 
-#header-front h1{
-    margin-top: 10px;
-    margin-bottom: 0;
-}
-
 #vaga-desc{
     margin-top: -90px;
     margin: 30px;
+    width: fit-content;
 }
 
 #vaga-candidatar{
